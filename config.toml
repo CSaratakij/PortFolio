@@ -1,105 +1,140 @@
-baseURL = 'https://example.com/'
-title = 'PortFolio'
-theme = 'book'
+baseURL = "https://example.com"
+title = "CSaratakij | PortFolio"
 
-# Book configuration
-disablePathToLower = true
-enableGitInfo = true
+theme = "fuji"
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
 
-# Needed for mermaid/katex shortcodes
-[markup]
-[markup.goldmark.renderer]
-  unsafe = true
+## Change this two to switch between different language
+languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
 
-[markup.tableOfContents]
-  startLevel = 1
+summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
+paginate = 10
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-[languages]
-[languages.en]
-  languageName = 'English'
-  contentDir = 'content'
-  weight = 1
+# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
 
-[languages.ru]
-  languageName = 'Russian'
-  contentDir = 'content.ru'
-  weight = 2
+[outputFormats]
+  [outputFormats.SearchIndex]
+    isPlainText = true
+    notAlternative = true
+    mediaType = "application/json"
+    path = "/search/"
 
-[languages.zh]
-  languageName = 'Chinese'
-  contentDir = 'content.zh'
-  weight = 3
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
 
-[menu]
-# [[menu.before]]
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
-  weight = 10
-
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
-  weight = 20
+[permalinks]
+  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
-  # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'light'
+  author = "CSaratakij" # You can also set author in post front matter individually
+  subTitle = "Things I made :D"
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC = true
+  # Use CloudFlare Workers to accelerate the Google Analytics
+  # If you are using this please comment the googleAnalytics above
+  # Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
+  # googleAnalyticsTid = "UA-000000000-0"
+  # googleAnalyticsRoute = "https://*.*.workers.dev/"
 
-  # (Optional, default none) Set the path to a logo for the book. If the logo is
-  # /static/logo.png then the path would be logo.png
-  # BookLogo = 'logo.png'
+  # Google AdSense
+  # The AdSense code will be inserted between the head tags of your site.
+  # googleAdsense = "0000000000000000"
 
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  # BookMenuBundle = '/menu'
+  # Word counter and read time indicator in post metadata
+  showWordCounter = true
+  showReadTime = false
 
-  # (Optional, default docs) Specify root page to render child pages as menu.
-  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
-  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+  # License at the end of each post
+  showLicense = true
+  showToc = true
 
-  # Set source repository location.
-  # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  # Open Graph & Twitter Card variables
+  # You can also set description and images in post front matter individually
+  description = ""
+  images = ["img/og.png"] # This will use the image called og.png in static/img folder
 
-  # Enable "Edit this page" links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/master/exampleSite'
+  # Posts shown in homepage
+  mainSections = ["post"]
 
-  # Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat = 'January 2, 2006'
+  # Bangumi image chart id
+  # bgmImageChart = "000000"
 
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+  # License
+  license = "CC BY-NC-SA 4.0"
+  licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
-  # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments = true
+  # Comments
+  # utterances, see: https://utteranc.es/
+  # utterancesRepo = "*/*"
+  # utterancesIssueTerm = "pathname"
 
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
+  # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
+  # disqusShortname = "*********"
+  # Also use DisqusJS for accessing from Mainland China, see: https://github.com/SukkaW/DisqusJS
+  # If you want to set multiple api key, see theme's README for more details
+  # disqusJSApi = "https://*********/"
+  # disqusJSApikey = "**********"
 
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+  # custom lazyload placeholder
+  # 16:9
+  lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
+  # 32:9
+  lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
+  # 8:9
+  lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
+
+  # Let images display in full brightness under dark mode
+  # disableDarkImage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  # [[menu.nav]]
+  #   name = "Home"
+  #   url = "/"
+  #   weight = 1
+  [[menu.nav]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 2
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  # [[menu.nav]]
+  #   name = "Search"
+  #   url = "/search/"
+  #   weight = 4
+  # [[menu.nav]]
+  #   name = "RSS"
+  #   url = "/index.xml"
+  #   weight = 5
+
+  [[menu.link]]
+    name = "GitHub"
+    url = "https://github.com/CSaratakij"
+    weight = 1
+  [[menu.link]]
+    name = "Facebook"
+    url = "https://www.facebook.com/CSaratakij"
+    weight = 2
+  [[menu.link]]
+    name = "E-Mail"
+    url = "mailto:CSaratakij@gmail.com"
+    weight = 3
