@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "" # TODO : need to replace
 title = "CSaratakij | PortFolio"
 
 theme = "fuji"
@@ -13,7 +13,7 @@ languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
 defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
-paginate = 10
+paginate = 12
 
 # googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
 
@@ -45,12 +45,13 @@ paginate = 10
   # googleAdsense = "0000000000000000"
 
   # Word counter and read time indicator in post metadata
-  showWordCounter = true
-  showReadTime = false
+  showWordCounter = false
+  showReadTime = true
 
   # License at the end of each post
-  showLicense = true
+  showLicense = false
   showToc = true
+  showComments = false
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
@@ -88,7 +89,7 @@ paginate = 10
   lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
 
   # Let images display in full brightness under dark mode
-  # disableDarkImage = true
+  disableDarkImage = true
 
 [markup]
   [markup.goldmark]
@@ -109,10 +110,10 @@ paginate = 10
   #   name = "Home"
   #   url = "/"
   #   weight = 1
-  [[menu.nav]]
-    name = "Archives"
-    url = "/archives/"
-    weight = 2
+  # [[menu.nav]]
+  #   name = "Archives"
+  #   url = "/archives/"
+  #   weight = 2
   [[menu.nav]]
     name = "About"
     url = "/about/"
@@ -121,10 +122,10 @@ paginate = 10
   #   name = "Search"
   #   url = "/search/"
   #   weight = 4
-  # [[menu.nav]]
-  #   name = "RSS"
-  #   url = "/index.xml"
-  #   weight = 5
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
 
   [[menu.link]]
     name = "GitHub"
