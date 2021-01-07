@@ -18,3 +18,8 @@ repository: https://github.com/CSaratakij/i3-rice-rin-shelter
 
 responsible: all (except desktop wallpaper)
 
+## The challenge about this ricing
+(TODO : setup archlinux + config all stuff to works as intended...)
+
+## Summary
+(TODO)

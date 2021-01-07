@@ -43,6 +43,7 @@ Most of the things in the game come from a first month we made doing a rappid pr
 
 But this is the entry for the contest, We cannot change our name mid-way due to the proposal we sent during the first round of the competition. So we kinda have to live with that.
 
+## Technical Challenge (TODO)
+
 ## (TODO : link to the making of doppelganger here...)
-TODO : showcase
 

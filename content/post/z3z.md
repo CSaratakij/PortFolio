@@ -1,7 +1,7 @@
 ---
 title: "Z3z"
 date: 2020-09-02T09:14:43+07:00
-weight: 6
+weight: 5
 tags: [Unity]
 draft: false
 ---
@@ -18,4 +18,10 @@ gameplay: https://www.youtube.com/watch?v=8EtqjO4foA4 \
 respository: https://github.com/CSaratakij/z3z
 
 responsible: all
+
+## Introduction
+
+## Technical Challenge (TODO)
+
+## Summary
 

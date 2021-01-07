@@ -15,3 +15,8 @@ repository: https://github.com/CSaratakij/MyWinBar
 
 responsible: all
 
+## Introduction
+
+## The Technical Challenge
+
+## Summary

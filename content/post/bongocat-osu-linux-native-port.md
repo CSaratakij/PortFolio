@@ -1,7 +1,7 @@
 ---
 title: "Bongocat Osu (Linux Native Port)"
 date: 2020-09-02T09:15:21+07:00
-weight: 8
+weight: 9
 tags: [C++, SFML, Linux, OSU]
 draft: false
 ---
@@ -15,8 +15,17 @@ Very useful when streaming osu! game.
 
 This is the fork implements the linux specific quirk to make it function like its upstream.
 
-video: https://www.youtube.com/watch?v=OylY3CnOpKs \
+video: https://www.youtube.com/watch?v=OylY3CnOpKs \ (TODO : embbed showcase youtube video here)
 repository: https://github.com/CSaratakij/bongocat-osu/tree/feature-linux-native-port
 
 responsible: linux port
+
+## The need to port this
+(TODO)
+
+## Technical Challenge
+(TODO)
+
+## Summary
+(TODO)
 

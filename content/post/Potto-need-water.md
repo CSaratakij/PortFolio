@@ -1,7 +1,7 @@
 ---
 title: "Potto Need Water"
 date: 2020-09-02T09:14:50+07:00
-weight: 5
+weight: 4
 tags: [Unity, Global Game Jam, GameJam]
 draft: false
 ---
@@ -20,3 +20,4 @@ gameplay: https://youtu.be/qRjH79JLIxw
 
 responsible: AI of Potto, UI Logic
 
+## Technical Challenge (TODO)

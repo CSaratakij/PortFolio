@@ -1,7 +1,7 @@
 ---
 title: "Osube"
 date: 2020-09-02T09:15:34+07:00
-weight: 9
+weight: 8
 tags: [Python, Shell Script, Linux, OSU]
 draft: false
 ---
@@ -19,4 +19,12 @@ release: https://github.com/CSaratakij/Osube/releases \
 respository: https://github.com/CSaratakij/Osube
 
 responsible: all
+
+## The need to write this
+
+## How it works
+
+## The technical challenge
+
+## Summary
 

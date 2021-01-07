@@ -15,3 +15,12 @@ The custom editor for Unity to highlight a game object that has a prefix __'---'
 respository: https://github.com/CSaratakij/HierachySection \
 responsible: all
 
+## How it works
+(TODO)
+
+## Technical Challenge
+(TODO)
+
+## Summary
+(TODO)
+

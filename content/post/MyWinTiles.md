@@ -24,3 +24,12 @@ respository: https://github.com/CSaratakij/MyWinTiles
 
 responsible: all
 
+## Introduction
+(The need to write this at all)
+
+## The Technical Challenge
+(F**k you Win32 api, give me the virtual desktop api (the useful one))
+
+## Summary
+()
+

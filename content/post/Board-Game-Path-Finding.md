@@ -1,7 +1,7 @@
 ---
 title: "Board Game Path Finding"
 date: 2020-09-02T09:15:47+07:00
-weight: 8
+weight: 6
 tags: [Unity, Custom Editor]
 draft: false
 ---
@@ -23,4 +23,5 @@ TODO : youtube video here
 
 ## How it works
 TODO
+TODO : image about turn graph into the tree here...
 
