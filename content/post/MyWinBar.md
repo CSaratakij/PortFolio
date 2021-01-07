@@ -8,6 +8,8 @@ draft: false
 
 The custom taskbar design to use with __MyWinTiles__ to properly show the current workspace.
 
+![preview](/img/mywinbar-preview.png)
+
 <!--more-->
 
 release: https://github.com/CSaratakij/MyWinBar/releases \
@@ -20,3 +22,4 @@ responsible: all
 ## The Technical Challenge
 
 ## Summary
+
