@@ -6,7 +6,7 @@ tags: [Unity]
 draft: false
 ---
 
-The game that inspired by the souls like genre.
+The game that inspired by the souls-like genre.
 
 ![preview](/img/souls_preview.png)
 
