@@ -20,6 +20,9 @@ respository: https://github.com/CSaratakij/Osube
 
 responsible: all
 
+## Showcase
+{{< youtube 7gUCAANz3oo >}}
+
 ## The need to write this
 I'm a fan of the [osu!](https://osu.ppy.sh/home), and I used to play this game a lot (this is my [profile](https://osu.ppy.sh/users/2800315)).
 
