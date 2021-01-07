@@ -46,7 +46,7 @@ Doing this many times starting to get me, So I decide to automate my script. \
 To make my automation works, I need a file watcher.
 
 Lucky for me, linux kernel provide the file system events stuff already.\
-There's a utility call [**inotifywait**](https://linux.die.net/man/1/inotifywait) which use the **inotify** to report the file system events.
+There's a utility call [inotifywait](https://linux.die.net/man/1/inotifywait) which use the [inotify](https://en.wikipedia.org/wiki/Inotify) to report the file system events.
 
 With inotifywait, I can write a simple shell script to act as a file watcher.
 
