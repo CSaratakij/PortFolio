@@ -14,14 +14,16 @@ Player must defeat all enemies within the level to proceed to the next level.
 <!--more-->
 
 game: https://github.com/CSaratakij/z3z/releases \
-gameplay: https://www.youtube.com/watch?v=8EtqjO4foA4 \
 respository: https://github.com/CSaratakij/z3z
 
 responsible: all
 
+## Showcase
+{{< youtube 8EtqjO4foA4 >}}
+
 ## Introduction
 
-## Technical Challenge (TODO)
+## Technical Challenge
 
 ## Summary
 

@@ -6,6 +6,7 @@ tags: [Unity, Ludumdare, GameJam]
 draft: false
 ---
 
+The entry for __Ludum Dare 41__. \
 Game that combine 2d hack and slash with a turn base strategy genre.
 
 ![game](/img/hk-intro.png)
@@ -17,12 +18,7 @@ One player got a turn base game mechanic and another player got a hack and slash
 Each player must fight until their hit point reach to zero. \
 Only one player can play at a given turn.
 
-The entry for __Ludum Dare 41__.
-
-(TODO : showcase (embbed youtube video here...)
-
-game: https://csaratakij.itch.io/hack-turn \ (<----????)
-gameplay: https://youtu.be/myzIMMvDZCQ \
+game: https://csaratakij.itch.io/hack-turn \
 respository: https://github.com/CSaratakij/RTS_TBS
 
 responsible: game system
@@ -30,7 +26,13 @@ responsible: game system
 other member: \
 [Nattareeya Kositvasutha ](mailto:shufier.nk@gmail.com) (artist)
 
-## Technical Challenge (TODO)
-(about implementing the 2 genre as one in the short amount of time)
-(and figure out how to make both of this genre playing together...)
+## Showcase
+{{< youtube myzIMMvDZCQ >}}
+
+## Technical Challenge
+Well, the challenge is about implementing 2 game genre in the same game with limit time. \
+I only have 72 hours to complete.
+
+The one that play hack & slash using overlap check for the slash area. \
+And the one that play turn base is just a unity gui (UGUI).
 
