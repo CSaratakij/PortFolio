@@ -57,7 +57,7 @@ I encode the information about workspace status as a bit to send the data in one
 
 ![bit-encode](/img/mywinbar-bitflag.png)
 
-All I need is 2 bytes, first 6 bits is for the current workspace. 10 bits after that is a bool flag status of wheter or not workspace currently have atleast 1 window.
+All I need is 2 bytes, first 6 bits is for the current workspace. 10 bits after that is a bool flag status of whether or not workspace currently have atleast 1 window.
 
 To get the information, simply use bitwise. \
 Shift bit to the right by 10 to get the current workspace. Use AND operation to get the bool flag.
@@ -65,3 +65,4 @@ Shift bit to the right by 10 to get the current workspace. Use AND operation to 
 ## Summary
 With win32 api magic and simple bitwise, I can make a custom taskbar.\
 This thing is useless on its own, It need MyWinTiles to function.
+
