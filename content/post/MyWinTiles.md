@@ -26,6 +26,7 @@ responsible: all
 
 ## Introduction
 (The need to write this at all)
+(MyWinTiles + MyWinBar + Wox = my ideals of desktop environment)
 
 ## The Technical Challenge
 (F**k you Win32 api, give me the virtual desktop api (the useful one))
