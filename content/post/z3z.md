@@ -14,8 +14,7 @@ Player must defeat all enemies within the level to proceed to the next level.
 <!--more-->
 
 game: https://github.com/CSaratakij/z3z/releases \
-respository: https://github.com/CSaratakij/z3z
-
+respository: https://github.com/CSaratakij/z3z \
 responsible: all
 
 ## Showcase
