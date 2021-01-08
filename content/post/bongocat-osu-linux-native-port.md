@@ -75,3 +75,5 @@ I still use this program, that's why I currently help upstream resolve issue and
 At the time of writing, the last feature I implement and got merge into upstream is a joystick support. \
 You can take a look [here](https://github.com/kuroni/bongocat-osu/pull/115).
 
+{{< youtube KlVhMYmJ4AU>}}
+
