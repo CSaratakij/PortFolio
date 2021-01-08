@@ -16,8 +16,7 @@ It come with a file watcher to detect and auto extract any beatmap in the watchi
 This help improve my experience when playing osu in linux with multiplayer mode without the osu supporter.
 
 release: https://github.com/CSaratakij/Osube/releases \
-respository: https://github.com/CSaratakij/Osube
-
+respository: https://github.com/CSaratakij/Osube \
 responsible: all
 
 ## Showcase
@@ -39,7 +38,7 @@ Which is really useful when I download a bunch of beatmaps, and need to try all 
 
 ## How it works
 Even though osu! beatmap file extension is ".osz", But it's actually just an archive file like ".zip" .\
-All I need to do is to extract .osz file with the right directory and make sure its folder structure is correct to make it works.
+All I need to do is to extract .osz file to the right directory and make sure the folder structure is correct to make it works.
 
 ## The technical challenge
 This is a command line application. \
