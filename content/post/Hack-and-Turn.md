@@ -19,8 +19,7 @@ Each player must fight until their hit point reach to zero. \
 Only one player can play at a given turn.
 
 game: https://csaratakij.itch.io/hack-turn \
-respository: https://github.com/CSaratakij/RTS_TBS
-
+respository: https://github.com/CSaratakij/RTS_TBS \
 responsible: game system
 
 other member: \
@@ -35,4 +34,8 @@ I only have 72 hours to complete.
 
 The one that play hack & slash using overlap check for the slash area. \
 And the one that play turn base is just a unity gui (UGUI).
+
+## Summary
+Another success jam for me. \
+Didn't get sleep, but I'm happy with what is turn out.
 
