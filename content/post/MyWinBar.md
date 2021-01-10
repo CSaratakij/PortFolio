@@ -13,7 +13,8 @@ The custom taskbar design to use with __MyWinTiles__ to properly show the curren
 <!--more-->
 
 release: https://github.com/CSaratakij/MyWinBar/releases \
-repository: https://github.com/CSaratakij/MyWinBar \
+repository: https://github.com/CSaratakij/MyWinBar
+
 responsible: all
 
 ## Showcase

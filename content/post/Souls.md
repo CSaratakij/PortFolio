@@ -13,11 +13,12 @@ The game that inspired by the souls-like genre.
 <!--more-->
 
 game: https://github.com/CSaratakij/Souls/releases \
-respository: https://github.com/CSaratakij/Souls \
-responsible: game system
+respository: https://github.com/CSaratakij/Souls
 
 other member: \
 [Pattarawut Jarupramote](mailto:jmpt.pattarawut@gmail.com) (artist)
+
+responsible: game system
 
 ## Showcase
 {{< youtube H_EocJMy4ss >}}

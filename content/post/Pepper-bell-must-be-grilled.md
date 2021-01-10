@@ -16,16 +16,18 @@ The 4 players party game. Each player must catch and throw each other to the roa
 game: https://csaratakij.itch.io/pepper-bell-must-be-grilled \
 respository: https://github.com/CSaratakij/Ludumdare43
 
-responsible: game system
-
 other member: \
 [Chusak Tan](mailto:chusak_saetan@hotmail.com) (technical artist) \
 [Jetniphat Likhitwatthanasakun](mailto:jetniphatoat@gmail.com) (artist) \
 [Pattarawut Jarupramote](mailto:jmpt.pattarawut@gmail.com) (artist) \
 [Panawat Khumgun](mailto:chikakito39@gmail.com) (artist)
 
+responsible: game system
+
 ## Showcase
 {{< youtube HQCoXmRc1NU >}}
+
+## Introduction
 
 ## Technical Challenge
 TODO:

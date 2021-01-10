@@ -19,11 +19,12 @@ Each player must fight until their hit point reach to zero. \
 Only one player can play at a given turn.
 
 game: https://csaratakij.itch.io/hack-turn \
-respository: https://github.com/CSaratakij/RTS_TBS \
-responsible: game system
+respository: https://github.com/CSaratakij/RTS_TBS
 
 other member: \
 [Nattareeya Kositvasutha ](mailto:shufier.nk@gmail.com) (artist)
+
+responsible: game system
 
 ## Showcase
 {{< youtube myzIMMvDZCQ >}}

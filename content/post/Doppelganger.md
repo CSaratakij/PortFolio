@@ -17,11 +17,11 @@ game: https://csaratakij.itch.io/doppelganger \
 walkthrough: https://www.youtube.com/watch?v=t01DpSmG0PQ \
 respository: https://github.com/CSaratakij/DG-Script-Only
 
-responsible: game system
-
 other member: \
 [Nutthan Lekprasan](mailto:nutthanlekprasan@outlook.co.th) (game designer) \
 [Jetniphat Likhitwatthanasakun](mailto:jetniphatoat@gmail.com) (artist)
+
+responsible: game system
 
 ## Introduction
 Before you read any further, I have to warn you. There are some __spoiler__ of the puzzle in this game. Please play the game first to avoid any spoiler.

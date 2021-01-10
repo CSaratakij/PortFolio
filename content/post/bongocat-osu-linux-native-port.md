@@ -19,7 +19,11 @@ repository: https://github.com/CSaratakij/bongocat-osu/tree/feature-linux-native
 responsible: linux port
 
 ## Showcase
+### Run natively on linux
 {{< youtube OylY3CnOpKs >}}
+
+### Use with OBS
+{{< youtube 3wbGySAu-Hw >}}
 
 ## The need to port this
 I already used this program on Windows. But I want to run this program natively on linux. \

@@ -16,7 +16,8 @@ It come with a file watcher to detect and auto extract any beatmap in the watchi
 This help improve my experience when playing osu in linux with multiplayer mode without the osu supporter.
 
 release: https://github.com/CSaratakij/Osube/releases \
-respository: https://github.com/CSaratakij/Osube \
+respository: https://github.com/CSaratakij/Osube
+
 responsible: all
 
 ## Showcase
