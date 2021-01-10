@@ -6,7 +6,7 @@ tags: [Python, Shell Script, Linux, OSU]
 draft: false
 ---
 
-The little script that help extract multiple osu beatmaps. \
+The little script that help extract multiple osu! beatmaps. \
 It come with a file watcher to detect and auto extract any beatmap in the watching directory.
 
 ![osube](/img/osube-intro.png)

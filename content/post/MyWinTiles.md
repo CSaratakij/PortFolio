@@ -1,12 +1,12 @@
 ---
 title: "MyWinTiles"
 date: 2020-09-02T09:15:04+07:00
-weight: 10
+weight: 9
 tags: [C++, Win32api, Tiling Window Manager]
 draft: false
 ---
 
-The tilling window manager for Windows that built on top of explorer shell.
+The tilling window manager for Windows, built on top of explorer shell.
 
 ![app](/img/mywintiles-intro.png)
 

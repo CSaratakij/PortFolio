@@ -1,7 +1,7 @@
 ---
 title: "Souls"
 date: 2021-01-07T21:54:38+07:00
-weight: 6
+weight: 4
 tags: [Unity]
 draft: false
 ---
@@ -29,7 +29,7 @@ It's weird....(I know)
 ![preview](/img/strong-dogu.jpg)
 
 At that time, I used to play souls-like game a lot. \
-So I taught, why not combine __meme__ with souls-like genre?
+So I thought, why not combine __meme__ with souls-like genre?
 
 ## Technical Challenge
 ### Animation
