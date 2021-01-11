@@ -44,11 +44,11 @@ The aim direction in the player perspective is from the center of the screen.
 The gun itself need to look like it point to the center of the screen as well. \
 So, I need to rotate a gun to make it look like that some how.
 
-Because there is no crosshair in this game, player should be able to aim from the hip by the line sight that gun model create.
+Because there is no crosshair in this game, player should be able to aim from the hip by the line of sight that gun model create.
 
-![gun line sight](/img/z3z-gun-line-sight.png)
+![gun line of sight](/img/z3z-gun-line-sight.png)
 
-Without this line sight, aiming is stupidly difficult.
+Without this line of sight, aiming is stupidly difficult.
 
 To rotate the gun, I simply find a look direction of camera in world space, offset it forward and then make gun model look at that position (Rotate only Y-axis).
 
@@ -56,7 +56,7 @@ To rotate the gun, I simply find a look direction of camera in world space, offs
 
 ## Summary
 I already tweak the feels of player controlling. \
-The core functional works pretty well, more level and enemy type I guess.
+The core functional works pretty well, need more level and enemy type (later).
 
 This one is about trying to clone the game mechanic, so I don't have an intention to release this to game site such as [itch.io](https://itch.io/) (aside from the source).
 

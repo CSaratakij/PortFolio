@@ -57,15 +57,15 @@ There's a library call [libxdo](https://github.com/jordansissel/xdotool), which 
 
 Still, I need to talk to x11 directly for the screen resolution.
 
-Also, I need to show the message box. The [GTK](https://www.gtk.org) and [Qt](https://www.qt.io) is way too overkill for this.
-I don't know ahead of time if user have a linux ditro based on GTK or Qt. (Gnome or KDE for an example)
+Also, I need to show the message box. The [GTK](https://www.gtk.org) and [Qt](https://www.qt.io) is way overkill for this.
+I don't know ahead of time if user have a linux distro based on GTK or Qt. (Gnome or KDE for an example)
 
 The amount of library dependencies that user need to install in order to show message box in those library is too much.
 
 Instead, I opt for [SDL](https://www.libsdl.org). \
 Way less bloat than those gui library.
 
-### Linux specific quirk
+### X11 quirk
 Well, for some reason, x11 handle error strangely. \
 If there is an error, x11 will force application to quit itself.
 
