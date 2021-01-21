@@ -1,4 +1,4 @@
-baseURL = "" # TODO : need to replace
+baseURL = "https://csaratakij.github.io/MyPortFolio"
 title = "CSaratakij | PortFolio"
 
 theme = "fuji"
