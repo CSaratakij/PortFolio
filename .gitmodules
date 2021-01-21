@@ -8,5 +8,5 @@
 	path = themes/hugo-theme-console
 	url = https://github.com/mrmierzejewski/hugo-theme-console.git
 [submodule "MyPortFolio"]
-	path = public
+	path = MyPortFolio
 	url = https://github.com/CSaratakij/MyPortFolio.git
