@@ -24,7 +24,7 @@ responsible: all
 {{< youtube 7gUCAANz3oo >}}
 
 ## The need to write this
-I'm a fan of the [osu!](https://osu.ppy.sh/home), and I used to play this game a lot (this is my [profile](https://osu.ppy.sh/users/2800315)).
+I'm a fan of [osu!](https://osu.ppy.sh/home), and I used to play this game a lot (this is my [profile](https://osu.ppy.sh/users/2800315)).
 
 There is the things call **osu! supporter**, which is the in-game feature to download any beatmap without leaving the game at all.
 

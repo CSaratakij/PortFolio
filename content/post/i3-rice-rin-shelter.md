@@ -19,6 +19,10 @@ responsible: all (except desktop wallpaper)
 ## Showcase
 {{< youtube Jn0nibjObqg >}}
 
+## Introduction
+[Shelter](https://www.youtube.com/watch?v=fzQ6gRAEoy0) by Porter Robinson is amazing. \
+Let's theme our desktop with Rin's cuteness.
+
 ## What is ricing?
 Short answer is ["make it look good"](https://www.reddit.com/r/unixporn/).
 
